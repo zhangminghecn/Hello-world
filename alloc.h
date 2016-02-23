@@ -29,7 +29,7 @@ void* _pbcH_alloc(struct heap *, int size);
 
 #ifdef _MSC_VER
 
-#define alloca _alloca
+#define alloca _alloca//delete this line
 
 #endif
 

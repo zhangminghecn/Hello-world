@@ -22,7 +22,6 @@ void* _pbcH_alloc(struct heap *, int size);
 #define realloc _pbcM_realloc
 #define memory _pbcM_memory
 
-#ifdef _WIN32
 
 
 #endif
@@ -36,4 +35,4 @@ void* _pbcH_alloc(struct heap *, int size);
 #endif
 #include<stdio.h>
 
-add new line
+#include "xxx.h" //add new line

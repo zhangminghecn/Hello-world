@@ -24,7 +24,6 @@ void* _pbcH_alloc(struct heap *, int size);
 
 #ifdef _WIN32
 
-#include <malloc.h>
 
 #endif
 
